@@ -3,7 +3,7 @@ body{
     background-size:  cover;
 }
 .container{
-border: 12px solid black;
+
 position: absolute;
 top: 30%;
 left: 35%;
@@ -11,9 +11,23 @@ color:white;
 }
 .container h1{
     font-size: 40px;
-    border-bottom: 5px solid purple;
     margin-bottom: 45px;
 }
 .box{
-    width: ;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border-bottom: 2px solid purple;     
+}
+.btn{
+    cursor: pointer;
+    border-radius: 50px;
+    width: 25%;
+    padding: 10px;
+}
+.box input{
+    background: none;
+
+    width: 75%;
+    padding: 12px 0px;
 }
