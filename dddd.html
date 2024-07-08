@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disable Right Click and Ctrl+U</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        /* Change the highlight color of selected text */
+        ::selection {
+            background: rgba(255, 255, 255, 0.5);
+        }
+    </style>
+    <script>
+        // Function to disable right-click
+        document.addEventListener('contextmenu', function(event) {
+            event.preventDefault();
+            alert('Right-click is disabled on this page.');
+        });
+
+        // Function to detect Ctrl+U and redirect
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey && event.key === 'u') {
+                event.preventDefault();
+                window.location.href = 'https://bcd.framer.ai';
+            }
+        });
+    </script>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Vaibhav Bhai ki first Website</h1>
+    <p>Vaibhav bhai ki first website</p>
+    <a href="https://framer.com/projects/main-llm--A56qj7XYtBQqDsdvBjs8-6Bh5E?node=LGnCWQJNw">this is the link of framer website</a>
+<img src="https://images.pexels.com/photos/355508/pexels-photo-355508.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Nature image"
+
+</body>
+</html>
+</body>
+</html>
